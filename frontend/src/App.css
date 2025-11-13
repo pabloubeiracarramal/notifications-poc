@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.status-section {
+  background-color: #1e2126;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  min-width: 300px;
+}
+
+.status-section p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.button-section {
+  margin: 20px 0;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribe-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.subscribe-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.unsubscribe-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.unsubscribe-btn:hover {
+  background-color: #da190b;
+  transform: scale(1.05);
+}
+
+.send-btn {
+  background-color: #2196F3;
+  color: white;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.send-btn:hover {
+  background-color: #0b7dda;
+}
+
+.notification-form {
+  background-color: #1e2126;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  min-width: 400px;
+}
+
+.notification-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.notification-form input,
+.notification-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #444;
+  border-radius: 5px;
+  background-color: #2d3139;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.notification-form input:focus,
+.notification-form textarea:focus {
+  outline: none;
+  border-color: #2196F3;
+}
+
+.notification-form textarea {
+  min-height: 100px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.info-section {
+  background-color: #1e2126;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  max-width: 500px;
+}
+
+.info-section h3 {
+  margin-top: 0;
+}
+
+.info-section ol {
+  text-align: left;
+  line-height: 1.8;
+}
+
+.info-section li {
+  margin: 10px 0;
+}
